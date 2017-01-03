@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidHttpDemo</string>
+    <string name="txt_get_async">GET异步请求</string>
+</resources>
