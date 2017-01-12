@@ -19,7 +19,7 @@ public class OkHttpClickManager {
 
     private final OkHttpClient mOkHttpClient;
 
-    private OkHttpClickManager() {
+    public OkHttpClickManager() {
         mOkHttpClient = new OkHttpClient();
     }
 
