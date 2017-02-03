@@ -47,8 +47,8 @@ public class SeniorOkHttpDemo {
     {
 
         new Request.Builder().url("https://www.baidu.com/")
-                .header("name","dsd")//设置头，在看源码之后发现，这个方法会删除以存在看的“key”
-                .addHeader()
+                .header("name","dsd");//设置头，在看源码之后发现，这个方法会删除以存在看的“key”
+//                .addHeader()
     }
 
     // TODO: 17-1-12 提取响应头 

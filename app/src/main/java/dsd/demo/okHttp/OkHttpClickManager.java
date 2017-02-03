@@ -72,13 +72,13 @@ public class OkHttpClickManager {
 
     }
 
+
+
     //上传文件
 
     //下载文件
 
     //回调
-
-
     abstract class ResponseCallBack {
         abstract void onFailure(Call request, Exception e);
 
@@ -92,7 +92,7 @@ public class OkHttpClickManager {
      * @return
      */
     private Call getCallByHttpGet(@NonNull String url) {
-
+        //不指定获取方式的时候默认是get
         Request request = new Request.Builder().url(url).build();
 
         return mOkHttpClient.newCall(request);
